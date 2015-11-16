@@ -1,45 +1,56 @@
 /**
  * Site header
  */
+
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 80px;
+    background-color: #5CB25F;
+    background-image: url("../images/bg6.png");
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
+    font-family: $header-font-family;
+    font-size: 28px;
+    font-weight: bold;
     line-height: 56px;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     margin-bottom: 0;
     float: left;
+    margin-top: 9px;
+
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $header-text-color;
     }
 }
 
 .site-nav {
-    float: right;
+
+    text-indent: 80px;
     line-height: 56px;
+    padding-top: 15px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $header-text-color;
         line-height: $base-line-height;
+        font-size: 20px;
+        font-family: $header-font-family;
+        padding: 4px 8px 7px 8px;
+
+
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
-    }
 
     @include media-query($on-palm) {
         position: absolute;
@@ -83,8 +94,12 @@
             display: block;
             padding: 5px 10px;
         }
+
+        }
     }
 }
+
+
 
 
 

@@ -1,3 +1,4 @@
+
 <header class="site-header">
 
   <div class="wrapper">
@@ -14,14 +15,16 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
+     <!--   {% for page in site.pages %}  // opting out for a simple way to choose the nav-meny link order.
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
-        {% endfor %}
+        {% endfor %} -->
+          <a class="page-link" href="/index.html">blog</a>
+          <a class="page-link" href="/projects.html/">projects</a>
+          <a class="page-link" href="/about/">about</a>
+
       </div>
     </nav>
-
-  </div>
 
 </header>

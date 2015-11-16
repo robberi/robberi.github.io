@@ -99,7 +99,15 @@ a {
     &:hover {
         color: $text-color;
         text-decoration: underline;
+
     }
+
+}
+
+.page-link:hover {
+    background-color: $link-hover-color;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #4C4C4C;
 }
 
 

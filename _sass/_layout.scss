@@ -5,7 +5,10 @@
 .site-header {
     min-height: 80px;
     background-color: #5CB25F;
-    background-image: url("../images/bg6.png");
+    background-image: url("../images/header01.png");
+    background-attachment: scroll;
+    background-position: center top;
+
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -24,7 +27,7 @@
 
     &,
     &:visited {
-        color: $header-text-color;
+        color: $white;
     }
 }
 
@@ -39,7 +42,7 @@
     }
 
     .page-link {
-        color: $header-text-color;
+        color: $white;
         line-height: $base-line-height;
         font-size: 20px;
         font-family: $header-font-family;
@@ -107,13 +110,11 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    padding: $spacing-unit 0;
+    background-image: url("../images/background.png");
+    height: 110px;
+
 }
 
 .contact-list,
@@ -195,13 +196,23 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $white;
+    background-color: #111111;
+    width: 80px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+
 }
 
 .post-link {
     display: block;
     font-size: 24px;
 }
+
+
 
 
 
@@ -213,7 +224,7 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 40px;
     letter-spacing: -1px;
     line-height: 1;
 
@@ -248,4 +259,18 @@
             font-size: 18px;
         }
     }
+
+    a {
+        color: $brand-color;
+    }
+
+    a:hover {
+        color: $text-color;
+        text-decoration: underline;
+
+    }
+}
+
+#disqus_thread {
+    margin-bottom: 20px;
 }

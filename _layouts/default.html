@@ -4,6 +4,7 @@
   {% include head.html %}
 
   <body>
+  <div class="sticky-footer-fix"> <!--A wrapper to make sure the footer stays put at the bottom-->
 
     {% include header.html %}
 
@@ -12,7 +13,7 @@
         {{ content }}
       </div>
     </div>
-
+  </div>
     {% include footer.html %}
 
   </body>

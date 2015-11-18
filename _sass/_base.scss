@@ -83,29 +83,35 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
 }
 
+h2 {
+    margin-bottom: 8px;
+}
+
+
+
 
 
 /**
  * Links
  */
 a {
-    color: $brand-color;
+    color: $grey-color-dark;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $grey-color-dark;
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $link-hover-color;
+        text-decoration: none;
 
     }
 
 }
 
 .page-link:hover {
-    background-color: $link-hover-color;
+    background-color: $nav-hover-color;
     text-decoration: none;
     text-shadow: 1px 1px 1px #4C4C4C;
 }
@@ -157,6 +163,20 @@ pre {
 }
 
 
+/**
+ * STICKY FOOTER FIX
+ */
+
+html, body {
+    height: 100%;
+}
+
+/* .sticky-footer-fix {
+    min-height: 100%;
+    margin: 0 auto -170px; // the bottom margin is the negative value of the footer's height
+}
+
+*/
 
 /**
  * Wrapper

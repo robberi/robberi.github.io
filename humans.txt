@@ -1,0 +1,8 @@
+/* TEAM */
+	Web developer: Robert Eriksson
+	Git: robberi
+	From: Avesta, Sweden
+
+/* MADE WITH */
+    Jekyll : http://jekyllrb.com/
+    Sass : http://sass-lang.com/

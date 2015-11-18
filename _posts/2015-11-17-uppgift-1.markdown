@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Svar på uppgift 1"
+date:   2015-11-18
+categories: nonsense
+comments: true
+---
+
+###CSS pre-processors
+
+I really dig the idea of pre-compiling css. The biggest draw for me is that I no longer have to repeat my style settings time and time again thanks to variable-setting, nestling and ,simpler auto-calculations. Add to that the ability to separate the styling over multiple files without sacrificing performance and I'm sold!
+
+That said, I'm far too new in this jam to make any deeper evaluations and once i come face to face with more tools and techniques i might reevaluate. The only drawbacks I see so far would be that it introduces another potential source of bugs and errors. And that the end product looks different to the working documents which might complicate maintenance.
+
+###Static site generators
+
+Another welcome addition to the toolbox. When i first heard of Jekyll I though it was limited to create some fancy looking "one-off product pages" and such but it's really quite powerful. The usage would be for any page that don't require dynamic content (blogs, "product pages" and the lik) Again, I feel that I'm far to green to evaluate and compare tools, but I sure like what I've seen so far. The drawback for me would be that it takes more effort to get up and running and depending on the projects size that might not be worth it.
+
+###Robots.txt
+

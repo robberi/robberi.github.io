@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "A sticky mess!"
+date:   2015-11-09 22:25:37
+categories: nonsense
+comments: true
+---
+Even with [this snippet](http://ryanfait.com/sticky-footer/layout.css) I can´t seem to get the footer to stay in it´s place without ruining the layout one way or another. Oh well, another feature to postpone to the next version I guess.

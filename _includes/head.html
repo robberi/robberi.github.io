@@ -1,10 +1,15 @@
-<head>
+<head xmlns:og="http://www.w3.org/1999/xhtml">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
+
+    <meta property="og:title" content="reinventions">
+    <meta property="og:type" content="blog.page">
+    <meta property="og:url" content="http://robberi.github.io/">
+    <meta property="og:img" content="reinventions">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

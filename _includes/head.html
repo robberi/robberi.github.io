@@ -6,10 +6,10 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
-    <meta property="og:title" content="reinventions">
-    <meta property="og:type" content="blog.page">
-    <meta property="og:url" content="http://robberi.github.io/">
-    <meta property="og:img" content="reinventions">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://robberi.github.io{{ page.url }}/">
+    <meta property="og:img" content="http://robberi.github.io/images/re-og.png/">
 
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

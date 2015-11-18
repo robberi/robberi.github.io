@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Svar på uppgift 1"
+title:  "Assignment 1"
 date:   2015-11-18
 categories: nonsense
 comments: true
@@ -18,3 +18,26 @@ Another welcome addition to the toolbox. When i first heard of Jekyll I though i
 
 ###Robots.txt
 
+Web robots are “programs” that systematically traverse the web and they can be used for a selection of purposes. Potential usage includes indexing web content for search engines, validating pages or more sinister things such as gathering e-mail addresses for spammers.
+Knowing this you probably want to keep some robots away from your site and that’s where Robots.txt comes into play - it allows you to set up rules for which robots are allowed access to your site.
+For now, my site lack any restrictions which can be achieved either by typing:
+
+> User-agent: *
+> Allow:
+
+Or dropping the robots.txt document altogether.
+
+###Humans.txt
+
+While robots.txt serves information to robots, humans.txt is meant to contain some information for the human user. Usually, if present at all, the document would hold some information about the team that's behind the website.
+
+I chose to add some contact information and also the tools I used as I myself sometimes wonder how other sites are made.
+
+###Comments
+
+To add post-comment support I used the suggested Disqus plugin. I have to say I'm happily surprised at how easy it was to implement. I've always though you had to dabble with databases and what not to set up a decent comments feature. Now i know better!
+
+
+###Open Graph
+
+Social graph, originally made by facebook, have come to be the standard for which site information is shared across social media services. The idea is to give the creator more power over how the linked resource [should be displayed](https://blog.kissmetrics.com/wp-content/uploads/2014/03/Facebook-2014-03-03.jpg). To use it you simply add a selection of *meta-property-og:* tags in the site head. You can chose what information to include but be aware that some platforms requires certain tags.
